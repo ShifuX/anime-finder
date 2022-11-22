@@ -1,0 +1,131 @@
+html, body {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: #1D3557;
+  color: #F1FAEE;
+}
+
+.header-main {
+  text-align: center;
+  font-size: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.container-input {
+  display: inline-flex;
+  margin-right: 1rem;
+  width: 45rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+  padding-left: 10px;
+  height: 30px;
+  background-color: #457B9D;
+  color: #F1FAEE;
+  font-size: 15px;
+}
+
+.container-label {
+  display: inline-flex;
+  margin-right: 1rem;
+  font-size: 26px;
+}
+
+.bttn {
+  border: none;
+  width: 6rem;
+  height: 2.2rem;
+  border-radius: 50px;
+  background-color: #457B9D;
+  color: #F1FAEE;
+  transition: background-color 1.5s;
+  transition: color 1.5s;
+}
+
+.bttn:hover {
+  transition: 2;
+  background-color: #F1FAEE;
+  color: #457B9D;
+}
+
+.card-container {
+  max-width: 35rem;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.inner-card {
+  background-color: #457B9D;
+  border: 1px solid #A8DADC;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+#card-img {
+  width: 100%;
+  border-radius: 12px;
+  height: 25%;
+  object-fit: cover;
+
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+#detail-list li {
+  font-size: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin-left: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width : 480px) {
+      .header-main{
+          font-size: 40px;
+      }
+
+      .container {
+          margin-top: 4rem;
+      }
+
+      .container-label {
+          font-size: 15px;
+          margin-right: 0.5rem;
+          width: 3rem;
+      }
+
+      .container-input {
+          width: 10rem;
+          margin-right: 0.5rem;
+          font-size: 15px;
+      }
+
+      .bttn {
+          width: 3.5rem;
+          height: 30px;
+      }
+
+      .card-container {
+          max-width: 20rem;
+      }
+}
+
