@@ -5,7 +5,7 @@ Anime finder uses the trace.moe API to search for the anime name, episode number
 
 # How to set up
 
-Run (npm i) to install all dependencies and start up with (npm start)
+Run ( npm i ) to install all dependencies and start up with ( npm start )
 
 # How to use
 
