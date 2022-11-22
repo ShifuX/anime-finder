@@ -100,7 +100,7 @@ h2 {
 
 @media screen and (max-width : 480px) {
       .header-main{
-          font-size: 40px;
+          font-size: 25px;
       }
 
       .container {
