@@ -1,4 +1,8 @@
 # anime-finder
+
+![image](https://user-images.githubusercontent.com/91515578/236659916-6d932ed6-bf69-4410-a69b-a4d839b22dff.png)
+
+
 # What it does
 
 Anime finder uses the trace.moe API to search for the anime name, episode number, and time stamp of the anime you may be looking for.
